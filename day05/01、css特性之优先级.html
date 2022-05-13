@@ -1,0 +1,46 @@
+<!--
+ * @Description: css之优先级
+ * @Author: 执手天涯
+ * @Date: 2022-05-13 10:53:30
+ * @LastEditors: 执手天涯
+ * @LastEditTime: 2022-05-13 11:00:27
+ * @version: 1.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            color: orange;
+        }
+
+        .box {
+            color: blue;
+        }
+
+        div {
+            color: green !important;
+        }
+
+        body {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 继承 < 通配符选择器 < 标签选择器 < 类选择器 < id选择器 < 行内样式 < !important -->
+
+    <!-- 权重的计算
+    ：（第一级，第二级，第三级，第四级）
+    ：（行内样式，id选择器，类选择器，标签选择器）
+    -->
+    <div class="box" id="box" style="color: pink;">测试优先级</div>
+</body>
+
+</html>
