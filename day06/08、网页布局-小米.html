@@ -1,0 +1,73 @@
+<!--
+ * @Description: 网页布局-小米
+ * @Author: 执手天涯
+ * @Date: 2022-05-14 17:25:06
+ * @LastEditors: 执手天涯
+ * @LastEditTime: 2022-05-14 18:52:12
+ * @version: 1.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            height: 40px;
+            background-color: black;
+        }
+
+        .main {
+            width: 1226px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .main .nav {
+            height: 100px;
+            background-color: antiquewhite;
+        }
+
+        .main .banner {
+            height: 460px;
+            background-color: blueviolet;
+        }
+
+        .main .banner .left,
+        .right {
+            float: left;
+            height: 460px;
+        }
+
+        .main .banner .left {
+            width: 234px;
+            background-color: aquamarine;
+        }
+
+        .main .banner .right {
+            width: 992px;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="main">
+        <div class="nav"></div>
+        <div class="banner">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+    </div>
+</body>
+
+</html>
