@@ -3,7 +3,7 @@
  * @Author: 执手天涯
  * @Date: 2022-05-14 19:29:43
  * @LastEditors: 执手天涯
- * @LastEditTime: 2022-05-14 20:44:04
+ * @LastEditTime: 2022-05-17 16:24:57
  * @version: 1.0
 -->
 <!DOCTYPE html>
@@ -14,10 +14,362 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
+    <!-- 头部 -->
+    <div class="header wrapper">
+        <!-- logo区域 -->
+        <h1 class="logo">
+            <a href="#">
+                <img src="./images/logo.png" alt="">
+            </a>
+        </h1>
 
+        <!-- 导航区域 -->
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">课程</a>
+                </li>
+                <li>
+                    <a href="#">职业规划</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 搜索区域 -->
+        <div class="search">
+            <input type="text" placeholder="输入关键字">
+            <button></button>
+        </div>
+
+        <!-- 用户信息 -->
+        <div class="user">
+            <img src="./images/user.png" alt="">
+            <span>lsi</span>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="wrapper">
+
+            <!-- 左边 -->
+            <div class="left">
+                <ul>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                    <li>
+                        <a href="#">前端开发<span>></span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 右边 -->
+            <div class="right">
+                <h3 class="title">我的课程表</h3>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <h4>继续学习 <span>程序语言设计</span></h4>
+                            <p>正在学习-使用对象</p>
+                        </li>
+                        <li>
+                            <h4>继续学习 <span>程序语言设计</span></h4>
+                            <p>正在学习-使用对象</p>
+                        </li>
+                        <li>
+                            <h4>继续学习 <span>程序语言设计</span></h4>
+                            <p>正在学习-使用对象</p>
+                        </li>
+                    </ul>
+                </div>
+                <button>全部课程</button>
+            </div>
+        </div>
+    </div>
+    <!-- navbar -->
+    <div class="navbar wrapper">
+        <div class="navlist">
+            <h4>精品推荐</h4>
+            <ul>
+                <li><span>|</span><a href="#">JQuery</a></li>
+                <li><span>|</span><a href="#">JQuery</a></li>
+                <li><span>|</span><a href="#">JQuery</a></li>
+                <li><span>|</span><a href="#">JQuery</a></li>
+                <li><span>|</span><a href="#">JQuery</a></li>
+                <li><span>|</span><a href="#">JQuery</a></li>
+            </ul>
+            <div class="more">
+                <a href="#">查看更多</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- product-recommend -->
+    <div class="product-recommend wrapper">
+        <div class="top">
+            <div class="title">精品推荐</div>
+            <div class="more"><a href="#">查看更多</a></div>
+        </div>
+
+        <div class="product-list">
+            <ul>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#">
+                        <img src="./images/course01.png" alt="">
+                        <h3>Android网络图片加载框架详解</h3>
+                        <p><span>高级</span> • 1125人在学习</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- codeStudy -->
+    <div class="codeStudy wrapper">
+        <div class="topbar">
+            <h3 class="title">编程入门</h3>
+            <div class="leval">
+                <ul>
+                    <li><a href="#">热门</a></li>
+                    <li><a href="#">初级</a></li>
+                    <li><a href="#">中级</a></li>
+                    <li><a href="#">高级</a></li>
+                </ul>
+            </div>
+            <div class="all">
+                <a href="#">查看全部</a>
+            </div>
+        </div>
+
+        <div class="left-pro">
+            <img src="./images/left.jpg" alt="">
+        </div>
+        <div class="right-pro">
+            <div class="top-pro">
+                <img src="./images/top.jpg" alt="">
+            </div>
+
+            <div class="bottom-pro">
+                <ul>
+                    <li class="product-item">
+                        <a href="#">
+                            <img src="./images/course01.png" alt="">
+                            <h3>Android网络图片加载框架详解</h3>
+                            <p><span>高级</span> • 1125人在学习</p>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#">
+                            <img src="./images/course01.png" alt="">
+                            <h3>Android网络图片加载框架详解</h3>
+                            <p><span>高级</span> • 1125人在学习</p>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#">
+                            <img src="./images/course01.png" alt="">
+                            <h3>Android网络图片加载框架详解</h3>
+                            <p><span>高级</span> • 1125人在学习</p>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#">
+                            <img src="./images/course01.png" alt="">
+                            <h3>Android网络图片加载框架详解</h3>
+                            <p><span>高级</span> • 1125人在学习</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="codeStudy wrapper">
+        <div class="topbar">
+            <h3 class="title">数据分析师</h3>
+            <div class="leval">
+                <ul>
+                    <li><a href="#">热门</a></li>
+                    <li><a href="#">初级</a></li>
+                    <li><a href="#">中级</a></li>
+                    <li><a href="#">高级</a></li>
+                </ul>
+            </div>
+            <div class="all">
+                <a href="#">查看全部</a>
+            </div>
+        </div>
+
+        <div class="left-pro">
+            <img src="./images/left.jpg" alt="">
+        </div>
+        <div class="right-pro">
+            <div class="top-pro">
+                <img src="./images/top.jpg" alt="">
+            </div>
+
+            <div class="bottom-pro">
+                <ul>
+                    <li class="product-item">
+                        <a href="#">
+                            <img src="./images/course01.png" alt="">
+                            <h3>Android网络图片加载框架详解</h3>
+                            <p><span>高级</span> • 1125人在学习</p>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#">
+                            <img src="./images/course01.png" alt="">
+                            <h3>Android网络图片加载框架详解</h3>
+                            <p><span>高级</span> • 1125人在学习</p>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#">
+                            <img src="./images/course01.png" alt="">
+                            <h3>Android网络图片加载框架详解</h3>
+                            <p><span>高级</span> • 1125人在学习</p>
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="#">
+                            <img src="./images/course01.png" alt="">
+                            <h3>Android网络图片加载框架详解</h3>
+                            <p><span>高级</span> • 1125人在学习</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-main wrapper">
+            <div class="left">
+                <h1>
+                    <img src="./images/logo.png" alt="">
+                </h1>
+                <p>学成在线致力于普及中国最好的教育它与中国一流大学和机构合作提供在线课程。
+                    © 2017年XTCG Inc.保留所有权利。-沪ICP备15025210号</p>
+                <button>下载APP</button>
+            </div>
+            <div class="right">
+                <dl>
+                    <dt>关于学成网</dt>
+                    <dd>关于</dd>
+                    <dd>管理团队</dd>
+                    <dd>工作机会</dd>
+                    <dd>客户服务</dd>
+                    <dd>帮助</dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd>如何注册</dd>
+                    <dd>如何选课</dd>
+                    <dd>如何拿到毕业证</dd>
+                    <dd>学分是什么</dd>
+                    <dd>考试未通过怎么办</dd>
+                </dl>
+                <dl>
+                    <dt>合作伙伴</dt>
+                    <dd>合作机构</dd>
+                    <dd>合作导师</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
 </body>
 
-</html>2
+</html>
